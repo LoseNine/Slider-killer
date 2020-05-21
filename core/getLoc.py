@@ -74,6 +74,3 @@ def getPageLoc(path):
 			cv.waitKey(0)
 			cv.destroyAllWindows()
 	return (posX,posY,posXmax,posYmax)
-
-if __name__=="__main__":
-	getPageLoc(r"./yd.jpg")
